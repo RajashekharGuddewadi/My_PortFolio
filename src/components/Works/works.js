@@ -1,7 +1,7 @@
 import React from 'react'
 import './works.css'
 import Homematecleaning from "../../assets/Homematelogo.png"
-// import portfolio2 from "../../assets/portfolio-2.png"
+import portfolio from "../../assets/Logo_PortFolio.png"
 // import portfolio3 from "../../assets/portfolio-3.png"
 // import portfolio4 from "../../assets/portfolio-4.png"
 // import portfolio5 from "../../assets/portfolio-5.png"
@@ -22,10 +22,14 @@ const Works = () => {
 The main objective of this project is to provide various cleaning services under one platform.
 Our project contains basic and essential modules like authentication of the customer and vendor to
 avoid unwanted traffic.Other modules include the daily database backup to avoid uncertain loss of data. We also have the provision of order ID for each order to keep track of all the order metadata. The user can also use our feedback portal to share their reviews.</p>
+<h4>Technologies Used</h4>
+<p>Built using HTML, CSS,JavaScript for the frontend, with Java, CoreJava, SQL, Spring_Boot, Opps for dynamic components and Backend.
+
+Leveraged Bootstrap for responsive design and utilized Git for version control.</p>
 </div>
 </div>
 <div className="project">
-<img src={Homematecleaning} alt="" className="projectImg" />
+<img src={portfolio} alt="" className="projectImg" />
 <div className="projecttText">
 <h2>Personal Portfolio Website</h2>
 <p>Designed and developed a dynamic personal portfolio website to showcase my skills, projects, 
@@ -34,10 +38,12 @@ and professional journey. The website serves as a central hub for potential empl
 <h4>Technologies Used</h4>
 <p>Built using HTML, CSS, and JavaScript for the frontend, with React.js for dynamic components. 
 Leveraged Bootstrap for responsive design and utilized Git for version control.</p>
+<h4>URL: <a href='https://github.com/RajashekharGuddewadi/My_PortFolio.git'>Git_hub</a></h4>
 </div>
 </div>
 </div>
-   {/*} <div className="worksImgs">
+   {/*
+    <div className="worksImgs">
     <img src={portfolio1} alt="portfolio-1" className="worksImg" />
     <img src={portfolio2} alt="portfolio-2"  className="worksImg" />
     <img src={portfolio3} alt="portfolio-3"  className="worksImg" />

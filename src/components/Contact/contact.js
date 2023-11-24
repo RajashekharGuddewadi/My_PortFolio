@@ -1,6 +1,6 @@
 import React, { useRef } from 'react'
 import './contact.css'
-import facebookicon from '../../assets/facebook-icon.png'
+import linkdin from '../../assets/linkedin-icon.png'
 import Twittwricon from '../../assets/twitter.png'
 import Youtubeicon from '../../assets/youtube.png'
 import Instagramicon from '../../assets/instagram.png'
@@ -29,7 +29,7 @@ const Contact = () => {
       <textarea className='msg' name='message' rows='5' placeholder='Your Massage'></textarea>
       <button type='sumbit' value='send' className="submitBtn">Submit</button>
       <div className="links">
-      <img src={facebookicon} alt="facebook" className="link" />
+      <img src={linkdin} alt="facebook" className="link" />
       <img src={Twittwricon} alt="twitter" className="link" />
       <img src={Youtubeicon} alt="youtube" className="link" />
       <img src={Instagramicon} alt="instagram" className="link" />

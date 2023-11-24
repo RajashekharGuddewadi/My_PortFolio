@@ -14,7 +14,7 @@ const Navbar = () => {
    <div className='desktopMenu'>
      <Link activeClass='active' to='intro' spy={true} smooth={true}  offset={-50} duration={500} className="desktopMenuListItem">Home</Link>
      <Link activeClass='active' to='skills' spy={true} smooth={true}  offset={-50} duration={500} className="desktopMenuListItem">About</Link>
-     <Link activeClass='active' to='works' spy={true} smooth={true}  offset={-50} duration={500} className="desktopMenuListItem">PortFolio</Link>
+     <Link activeClass='active' to='works' spy={true} smooth={true}  offset={-50} duration={500} className="desktopMenuListItem">Projects</Link>
      <Link  className="desktopMenuListItem">Contact</Link>
    </div>
 
@@ -30,7 +30,7 @@ const Navbar = () => {
    <div className='navMenu' style={{display: showMenu?'flex':'none'}}>
      <Link activeClass='active' to='intro' spy={true} smooth={true}  offset={-50} duration={500} className="ListItem" onClick={()=>setShowMenu(false)}>Home</Link>
      <Link activeClass='active' to='skills' spy={true} smooth={true}  offset={-50} duration={500} className="ListItem" onClick={()=>setShowMenu(false)}>About</Link>
-     <Link activeClass='active' to='works' spy={true} smooth={true}  offset={-50} duration={500} className="ListItem" onClick={()=>setShowMenu(false)} >PortFolio</Link>
+     <Link activeClass='active' to='works' spy={true} smooth={true}  offset={-50} duration={500} className="ListItem" onClick={()=>setShowMenu(false)} >projects</Link>
      <Link activeClass='active' to='contact' spy={true} smooth={true}  offset={-50} duration={500} className="ListItem" onClick={()=>setShowMenu(false)} >Contact</Link>
      <Link activeClass='active' to='contact' spy={true} smooth={true}  offset={-50} duration={500} className="ListItem" onClick={()=>setShowMenu(false)} >Contact</Link>
    </div>

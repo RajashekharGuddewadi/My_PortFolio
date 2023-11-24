@@ -6,7 +6,7 @@ import AppDesign from'../../assets/app-design.png'
 const Skills = () => {
   return (
     <section id='skills'>
-    <span className="skillTitle">What I do</span>
+    <span className="skillTitle">Skills</span>
     <span className="skillDesc">As a Software Engineer with a passion for technology and innovation, 
     I bring a strong foundation in computer science and a proven ability to learn new technologies quickly.
      I am a graduate of the CDAC Course from Acts Chennai, where I honed my skills in software development. 
